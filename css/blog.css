@@ -1,0 +1,131 @@
+body{
+    transform-style: preserve-3d;
+    max-width: 100%;
+}
+*{
+    list-style: none;
+}
+/*left*/
+.pd-r-10{
+    padding-right: 30px;
+}
+.blog-page , .blog-nav{
+    width: 50%;
+    padding: 50px;
+}
+.blog-nav li{
+    display: inline-block;
+    margin: 10px;
+}
+.blog-nav a {
+    text-decoration: none;
+}
+.blog-page {
+    font-size: 20px;
+    font-weight: 900;
+}.blog-nav > li + li:before {
+    content: '/ ';
+    color:#979797;
+}
+.blog-nav li:last-child{
+    color:#979797;
+}
+.blog-nav{
+    text-align: end;
+}
+.blog-content{
+    padding-top: 120px;
+}
+.blog-content .left{
+    width: 73.5%;
+    margin-right: 2.5%;
+}
+.blog-content .right{
+    padding-left: 5px;
+    width: 24%;
+}
+.blog-img{
+    width: 100%; 
+}
+.blog-img img{
+    width: 100%; 
+}
+.blog-content-info li{
+    display: inline-block;
+    font-size: 15px;
+    margin:10px 5px;
+}
+.blog-content-info li i {
+    color: #6195FF;
+    margin-right: 5px;
+}
+.blog-content-info{
+    padding: 10px 0;
+}
+.blog-content-title{
+    margin-bottom: 20px;
+}
+.blog-content-desc{
+    line-height: 1.5;
+    color:#979797
+}
+.tags{
+    display: inline-block;
+}
+.blog-tags{
+    padding: 50px 0;
+}
+.blog-tags a {
+    background-color: #f3f3f3;
+    padding: 8px  12px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.blog-tags a i {
+    color: #6195FF; 
+    margin-right: 4px;
+}
+.widget-search{
+    position: relative;
+}
+.widget-search input{
+    background-color:#f5f5f5c5 ;
+    border: none;
+    padding: 13px 15px ;
+    width: 21vw;
+}
+.widget-search .btn-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #6195FF;
+}
+.right .category, .right .line , .posts .category , .posts .line{
+    text-align: left;
+    margin: 13px  0;
+}
+.right .category, .posts .category{
+    margin-top: 40px;
+}
+.widget-category a:first-child{
+    border-top: 1px solid #EEE ;
+}
+.widget-category a {
+    border-top: 1px solid #EEE ;
+    text-transform: capitalize;
+    display: block;
+    color: black;
+    padding: 7px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.widget-category span{
+    float: right;
+    color: #6195FF;
+}
+.widget-category a:last-child{
+    border-bottom: 1px solid #EEE ;
+}
